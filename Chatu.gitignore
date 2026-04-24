@@ -1,0 +1,14 @@
+build/
+.dart_tool/
+.packages
+pubspec.lock
+
+android/.gradle/
+android/app/build/
+
+ios/Pods/
+ios/.symlinks/
+
+# 🔥 IMPORTANT
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist

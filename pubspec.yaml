@@ -1,0 +1,48 @@
+name: chatu
+
+description: A new Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.17.0
+
+  cupertino_icons: ^1.0.8
+  firebase_messaging: ^14.9.4
+  image_picker: ^1.2.1
+  http: ^1.6.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+
+flutter_native_splash:
+  color: "#0F0F0F"
+  image: assets/logo.png
+  android: true
+  ios: true
