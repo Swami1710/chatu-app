@@ -32,6 +32,12 @@ A modern chat application built using Flutter & Firebase with real-time messagin
 
 ---
 
+
+## Download APK Link 
+https://drive.google.com/drive/folders/1U2HT-FqgHE9qgrnvgL-6NZQNHgyJVDYq?usp=drive_link
+
+---
+
 ## ⚙️ Setup
 1. Clone repo
 2. Add Firebase config
